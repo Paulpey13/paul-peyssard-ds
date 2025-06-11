@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 export default function Services() {
   return (
     <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-      <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+      <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 dark:text-gray-100">
         Services
       </h1>
-      <ul className="list-disc ml-6 mt-4 space-y-2 text-lg text-gray-700 dark:text-gray-300">
+      <ul className="mt-4 ml-6 list-disc space-y-2 text-lg text-gray-700 dark:text-gray-300">
         <li>Consulting IA</li>
         <li>Développement, entraînement, mise en production de modèles IA</li>
         <li>Implémentation de LLM pour entreprises</li>

@@ -110,4 +110,4 @@ module.exports = {
   email: 'paul.peyssard@gmail.com',
   github: 'https://github.com/paulpey13',
   linkedin: 'https://www.linkedin.com/in/paul-peyssard-machine-leanring-engineer/',
-};
+}
