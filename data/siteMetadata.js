@@ -103,6 +103,7 @@ const siteMetadata = {
 }
 
 module.exports = {
+  ...siteMetadata,
   title: 'Algonova',
   author: 'Paul Peyssard',
   headerTitle: 'Algonova : Data Scientist Freelance',
