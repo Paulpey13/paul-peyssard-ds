@@ -1,9 +1,11 @@
+const { isPropertyAccessOrQualifiedName } = require("typescript")
+
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Next.js Starter Blog',
   author: 'Paul Peyssard',
   headerTitle: 'Algonova',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'Paul Peyssard\'s website for freelance activities',
   language: 'en-us',
   theme: 'light', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -104,9 +106,9 @@ const siteMetadata = {
 
 module.exports = {
   ...siteMetadata,
-  title: 'Algonova',
+  title: 'Paul Peyssard',
   author: 'Paul Peyssard',
-  headerTitle: 'Algonova: AI & Data Automation',
+  headerTitle: 'Algonova : AI & Data Automation',
   description: 'Freelance en IA, LLMs et automatisation de données',
   language: 'fr-fr',
   siteUrl: 'https://ton-site.vercel.app',
@@ -115,3 +117,4 @@ module.exports = {
   linkedin: 'https://www.linkedin.com/in/paul-peyssard-machine-leanring-engineer/',
   stickyNav: siteMetadata.stickyNav, // <===== Reinjecte explicitement ici
 }
+
