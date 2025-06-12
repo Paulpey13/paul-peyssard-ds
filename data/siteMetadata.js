@@ -106,7 +106,7 @@ module.exports = {
   ...siteMetadata,
   title: 'Algonova',
   author: 'Paul Peyssard',
-  headerTitle: 'Data Scientist Freelance',
+  headerTitle: 'Algonova: AI & Data Automation',
   description: 'Freelance en IA, LLMs et automatisation de données',
   language: 'fr-fr',
   siteUrl: 'https://ton-site.vercel.app',

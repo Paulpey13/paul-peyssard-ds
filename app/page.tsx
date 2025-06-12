@@ -43,13 +43,13 @@ export default function Home() {
           href="/services"
           className="bg-primary-600 hover:bg-primary-700 inline-block rounded-lg px-6 py-3 font-medium text-white"
         >
-          Mes Services
+          My Services
         </Link>
         <Link
           href="/projects"
           className="border-primary-600 text-primary-600 hover:bg-primary-50 inline-block rounded-lg border px-6 py-3 font-medium dark:hover:bg-gray-800"
         >
-          Mes Projets
+          My  Projects
         </Link>
       </motion.div>
 

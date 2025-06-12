@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Briefcase, Code, BookOpen, BarChart3, Sparkles, Bot, Zap,MonitorSmartphone  } from 'lucide-react'
 // https://lucide.dev/icons/
+
 export const metadata: Metadata = {
   title: 'Services',
   description: 'AI services offered by Paul Peyssard: custom development, automation, LLM integration, and more.',
