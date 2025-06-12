@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
-import { Briefcase, Code, BookOpen, BarChart3, Sparkles, Bot, Zap } from 'lucide-react'
-
+import { Briefcase, Code, BookOpen, BarChart3, Sparkles, Bot, Zap,MonitorSmartphone  } from 'lucide-react'
+// https://lucide.dev/icons/
 export const metadata: Metadata = {
   title: 'Services',
   description: 'AI services offered by Paul Peyssard: custom development, automation, LLM integration, and more.',
@@ -36,6 +36,11 @@ const services = [
     title: 'Full-Stack App Development',
     description: 'AI-powered tools and dashboards using Python, Flask, Next.js, React, Tailwind, and more.',
     icon: <Sparkles className="h-6 w-6 text-primary-600" />,
+  },
+  {
+  title: 'Personal & Company Website',
+  description: 'A professional website showcasing your portfolio, services, projects, blog, and contact information with a clean, modern, and responsive design.',
+  icon: <MonitorSmartphone  className="h-6 w-6 text-primary-600" />,
   },
   {
     title: 'Workshops & Training',
