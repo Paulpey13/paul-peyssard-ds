@@ -10,8 +10,7 @@ export default function Home() {
         Data Scientist & Machine Learning Engineer Freelance
       </p>
       <p className="mt-2 max-w-2xl text-lg text-gray-500 dark:text-gray-400">
-        Spécialisé en IA, Deep Learning, LLMs et automatisation. Je conçois, entraîne, et déploie
-        des modèles d'intelligence artificielle adaptés aux besoins métiers.
+        Specialized in AI, Deep Learning, LLMs, and automation. I design, train, and deploy artificial intelligence models tailored to business needs.
       </p>
 
       <div className="mt-8 space-x-4">
@@ -30,9 +29,9 @@ export default function Home() {
       </div>
 
       <div className="mt-12 text-sm text-gray-400">
-        Basé en France • Disponible en télétravail •{' '}
+        Based in France & Switzerland • Available for remote and on-site work •{' '}
         <Link href="mailto:paul.peyssard@gmail.com" className="underline">
-          Contactez-moi
+          Contact me
         </Link>
       </div>
     </div>
