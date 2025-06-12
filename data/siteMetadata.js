@@ -1,4 +1,4 @@
-const { isPropertyAccessOrQualifiedName } = require("typescript")
+// const { isPropertyAccessOrQualifiedName } = require("typescript")
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
