@@ -12,7 +12,8 @@ export default function ContactPage() {
         Let’s Connect
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600 dark:text-gray-300">
-        If you're interested in working together, hiring me, or simply getting in touch, feel free to schedule a call at your convenience.
+        If you're interested in working together, hiring me, or simply getting in touch,
+        feel free to schedule a call at your convenience.
       </p>
       <a
         href="https://calendly.com/paul-peyssard"
