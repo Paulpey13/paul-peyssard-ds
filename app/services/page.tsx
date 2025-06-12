@@ -48,7 +48,8 @@ const services = [
     description: 'Introductory and advanced sessions on AI, Python, deep learning, and generative models.',
     icon: <BookOpen className="h-6 w-6 text-primary-600" />,
   },
-]
+] 
+
 
 export default function Services() {
   return (
