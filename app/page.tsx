@@ -13,6 +13,7 @@ export default function Home() {
           name="description"
           content="Freelance expert in AI, LLMs, deep learning and automation. Available remotely and on-site."
         />
+        <meta name="google-site-verification" content="jePkPnrRD3vWOgMLO_rx7QH2dSXvic4IZdpImLDjYU8" />
         <link rel="canonical" href="https://paul-peyssard-ds.vercel.app/" />
       </Head>
 
