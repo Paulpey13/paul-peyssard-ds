@@ -5,7 +5,7 @@ const siteMetadata = {
   headerTitle: 'Algonova',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
-  theme: 'dark', // system, dark or light
+  theme: 'light', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
@@ -50,7 +50,7 @@ const siteMetadata = {
     // },
   },
   newsletter: {
-  provider: '',
+    provider: '',
   },
   //   // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
   //   // Please add your .env file and modify it according to your selection
@@ -75,7 +75,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'dark',
+      theme: 'light',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`
@@ -114,5 +114,4 @@ module.exports = {
   github: 'https://github.com/paulpey13',
   linkedin: 'https://www.linkedin.com/in/paul-peyssard-machine-leanring-engineer/',
   stickyNav: siteMetadata.stickyNav, // <===== Reinjecte explicitement ici
-
 }

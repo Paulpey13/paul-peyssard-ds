@@ -3,51 +3,229 @@
 export default function TrustedClients() {
   return (
     <div className="mt-6">
-      <h2 className="text-center text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
+      <h2 className="mb-4 text-center text-xl font-semibold text-gray-700 dark:text-gray-300">
         They trusted me
       </h2>
       <div className="relative overflow-hidden whitespace-nowrap">
-        <div className="flex animate-scroll">
+        <div className="animate-scroll flex">
           {/* logos */}
-            <img src="/static/images/logos/airbus.svg" alt="Airbus" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/veracyte.png" alt="Veracyte" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/IBM.png" alt="IBM" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/AMU.jpg" alt="AMU" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/neurosys.jpg" alt="Neuro-Sys" className="h-10 opacity-80 transition mx-8" />
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          {/* Deuplicated logos */}
 
-            {/* Deuplicated logos */}
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
 
-            <img src="/static/images/logos/airbus.svg" alt="Airbus" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/veracyte.png" alt="Veracyte" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/IBM.png" alt="IBM" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/AMU.jpg" alt="AMU" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/neurosys.jpg" alt="Neuro-Sys" className="h-10 opacity-80 transition mx-8" />
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
 
-            <img src="/static/images/logos/airbus.svg" alt="Airbus" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/veracyte.png" alt="Veracyte" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/IBM.png" alt="IBM" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/AMU.jpg" alt="AMU" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/neurosys.jpg" alt="Neuro-Sys" className="h-10 opacity-80 transition mx-8" />
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
 
-            <img src="/static/images/logos/airbus.svg" alt="Airbus" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/veracyte.png" alt="Veracyte" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/IBM.png" alt="IBM" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/AMU.jpg" alt="AMU" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/neurosys.jpg" alt="Neuro-Sys" className="h-10 opacity-80 transition mx-8" />
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
 
-            <img src="/static/images/logos/airbus.svg" alt="Airbus" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/veracyte.png" alt="Veracyte" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/IBM.png" alt="IBM" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/AMU.jpg" alt="AMU" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/neurosys.jpg" alt="Neuro-Sys" className="h-10 opacity-80 transition mx-8" />
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
 
-            <img src="/static/images/logos/airbus.svg" alt="Airbus" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/veracyte.png" alt="Veracyte" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/IBM.png" alt="IBM" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/AMU.jpg" alt="AMU" className="h-10 opacity-80 transition mx-8" />
-            <img src="/static/images/logos/neurosys.jpg" alt="Neuro-Sys" className="h-10 opacity-80 transition mx-8" />
-
-            
+          <img
+            src="/static/images/logos/airbus.png"
+            alt="Airbus"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/veracyte_2.png"
+            alt="Veracyte"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/IBM.png"
+            alt="IBM"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/AMU.jpg"
+            alt="AMU"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/neurosys.jpg"
+            alt="Neuro-Sys"
+            className="mx-8 h-10 opacity-80 transition"
+          />
+          <img
+            src="/static/images/logos/24h.png"
+            alt="24h"
+            className="mx-8 h-10 opacity-80 transition"
+          />
         </div>
       </div>
 
