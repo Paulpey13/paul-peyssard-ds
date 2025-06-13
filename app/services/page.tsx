@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: 'Model Development & Deployment',
-    description: 'Custom AI models for classification, prediction, detection, segmentation — trained and deployed in production.',
+    description: 'Custom AI models for classification, prediction, detection, segmentation - trained and deployed in production.',
     icon: <Code className="h-6 w-6 text-primary-600" />,
   },
   {
@@ -30,25 +30,27 @@ const services = [
   },
   {
     title: 'Automation & AI Agents',
-    description: 'End-to-end automation of complex processes using AI agents — image, video, text, or code.',
+    description: 'End-to-end automation of complex processes using AI agents - image, video, text, or code.',
     icon: <Zap className="h-6 w-6 text-primary-600" />,
   },
+  // {
+  //   title: 'Full-Stack App Development',
+  //   description: 'AI-powered tools and dashboards using Python, Flask, Next.js, React, Tailwind, and more.',
+  //   icon: <Sparkles className="h-6 w-6 text-primary-600" />,
+  // },
+  // {
+  // title: 'Personal & Company Website',
+  // description: 'A professional website showcasing your portfolio, services, projects, blog, and contact information with a clean, modern, and responsive design.',
+  // icon: <MonitorSmartphone  className="h-6 w-6 text-primary-600" />,
+  // },
   {
-    title: 'Full-Stack App Development',
-    description: 'AI-powered tools and dashboards using Python, Flask, Next.js, React, Tailwind, and more.',
-    icon: <Sparkles className="h-6 w-6 text-primary-600" />,
-  },
-  {
-  title: 'Personal & Company Website',
-  description: 'A professional website showcasing your portfolio, services, projects, blog, and contact information with a clean, modern, and responsive design.',
-  icon: <MonitorSmartphone  className="h-6 w-6 text-primary-600" />,
-  },
-  {
+    
     title: 'Workshops & Training',
     description: 'Introductory and advanced sessions on AI, Python, deep learning, and generative models.',
     icon: <BookOpen className="h-6 w-6 text-primary-600" />,
   },
 ] 
+
 
 
 
@@ -60,7 +62,7 @@ export default function Services() {
           What I Offer
         </h1>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          Practical AI expertise for real-world problems. From custom models to automated workflows and LLMs — I deliver production-ready solutions.
+          Practical AI expertise for real-world problems. From custom models to automated workflows and LLMs - I deliver production-ready solutions.
         </p>
       </div>
 
