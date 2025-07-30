@@ -77,6 +77,7 @@ export default function Home() {
         >
           Based in & Switzerland • Available for remote and on-site work •{' '}
           <Link href="mailto:paul.peyssard@gmail.com" className="underline">
+          
             Contact me
           </Link>
         </motion.div>
