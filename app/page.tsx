@@ -13,10 +13,12 @@ export default function Home() {
           name="description"
           content="Freelance expert in AI, LLMs, deep learning and automation. Available remotely and on-site."
         />
-        <meta name="google-site-verification" content="jePkPnrRD3vWOgMLO_rx7QH2dSXvic4IZdpImLDjYU8" />
+        <meta
+          name="google-site-verification"
+          content="jePkPnrRD3vWOgMLO_rx7QH2dSXvic4IZdpImLDjYU8"
+        />
         <link rel="canonical" href="https://paul-peyssard-ds.vercel.app/" />
       </Head>
-
 
       <div className="flex min-h-screen flex-col items-center justify-center px-4 py-10 text-center">
         <motion.h1
@@ -43,7 +45,8 @@ export default function Home() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="mt-2 text-lg text-gray-500 dark:text-gray-400"
         >
-          Specialized in AI, Deep Learning, LLMs, and automation. I design, train, and deploy artificial intelligence models tailored to business needs.
+          Specialized in AI, Deep Learning, LLMs, and automation. I design, train, and deploy
+          artificial intelligence models tailored to business needs.
         </motion.p>
 
         <motion.div
@@ -72,7 +75,7 @@ export default function Home() {
           transition={{ delay: 1.2 }}
           className="mt-12 text-sm text-gray-400"
         >
-          Based in France & Switzerland • Available for remote and on-site work •{' '}
+          Based in & Switzerland • Available for remote and on-site work •{' '}
           <Link href="mailto:paul.peyssard@gmail.com" className="underline">
             Contact me
           </Link>
